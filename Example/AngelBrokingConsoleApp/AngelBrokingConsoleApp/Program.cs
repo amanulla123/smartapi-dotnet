@@ -37,9 +37,9 @@ namespace AngelBrokingConsoleApp
             obj = connect.GenerateToken();
             agr = obj.TokenResponse;
 
-            Console.WriteLine("------GenerateToken call output-------------");
-            Console.WriteLine(JsonConvert.SerializeObject(agr));
-            Console.WriteLine("----------------------------------------------");
+            // Console.WriteLine("------GenerateToken call output-------------");
+            // Console.WriteLine(JsonConvert.SerializeObject(agr));
+            // Console.WriteLine("----------------------------------------------");
 
             //Get Profile
             obj = connect.GetProfile();
